@@ -1,4 +1,6 @@
 import { useEffect, useMemo, useState } from 'react'
+import { jsPDF } from 'jspdf'
+import autoTable from 'jspdf-autotable'
 import './App.css'
 
 function App() {
@@ -74,7 +76,7 @@ function App() {
     setPurchases((current) => current.filter((purchase) => purchase.id !== id))
   }
 
-  const calculateRevenue = () => {
+  const getCalculationData = () => {
     const totalPerAsset = {}
     const totalAmountPerAsset = {}
 
@@ -131,9 +133,81 @@ function App() {
       .map(([artistName, totalCredit]) => ({ artist: artistName, totalCredit }))
       .sort((a, b) => b.totalCredit - a.totalCredit)
 
+    return { rows, totalRows, creditRows }
+  }
+
+  const calculateRevenue = () => {
+    const { rows, totalRows, creditRows } = getCalculationData()
+
     setRevenueRows(rows)
     setArtistTotals(totalRows)
     setArtistCredits(creditRows)
+  }
+
+  const downloadPdfReport = () => {
+    if (purchases.length === 0) {
+      return
+    }
+
+    const { rows, totalRows, creditRows } = getCalculationData()
+
+    setRevenueRows(rows)
+    setArtistTotals(totalRows)
+    setArtistCredits(creditRows)
+
+    const doc = new jsPDF({ unit: 'pt', format: 'a4' })
+    const reportDate = new Date().toLocaleString()
+
+    doc.setFontSize(18)
+    doc.text('Moonshot Credit Revenue Report', 40, 40)
+    doc.setFontSize(10)
+    doc.text(`Generated: ${reportDate}`, 40, 58)
+    doc.text(`Total net purchase value: ${totalNetPurchaseValue.toFixed(2)}`, 40, 74)
+
+    autoTable(doc, {
+      startY: 92,
+      head: [['Asset', 'Amount', 'Price', 'Net value (x0.6)']],
+      body: purchases.map((purchase) => [
+        purchase.asset,
+        purchase.amount,
+        purchase.price.toFixed(2),
+        (purchase.amount * purchase.price * 0.6).toFixed(2),
+      ]),
+      styles: { fontSize: 9 },
+      headStyles: { fillColor: [58, 108, 240] },
+    })
+
+    autoTable(doc, {
+      startY: doc.lastAutoTable.finalY + 18,
+      head: [['Asset', 'Artist', 'Credit', 'Credit %', 'Revenue']],
+      body: rows.map((row) => [
+        row.asset,
+        row.artist,
+        row.credit,
+        `${(row.percentage * 100).toFixed(2)}%`,
+        row.revenue.toFixed(2),
+      ]),
+      styles: { fontSize: 9 },
+      headStyles: { fillColor: [58, 108, 240] },
+    })
+
+    autoTable(doc, {
+      startY: doc.lastAutoTable.finalY + 18,
+      head: [['Artist', 'Total credit (weighted by amount)']],
+      body: creditRows.map((artist) => [artist.artist, artist.totalCredit.toFixed(2)]),
+      styles: { fontSize: 9 },
+      headStyles: { fillColor: [58, 108, 240] },
+    })
+
+    autoTable(doc, {
+      startY: doc.lastAutoTable.finalY + 18,
+      head: [['Artist', 'Total revenue']],
+      body: totalRows.map((artist) => [artist.artist, artist.totalRevenue.toFixed(2)]),
+      styles: { fontSize: 9 },
+      headStyles: { fillColor: [58, 108, 240] },
+    })
+
+    doc.save('moonshot-credit-report.pdf')
   }
 
   const totalNetPurchaseValue = purchases.reduce(
@@ -229,9 +303,14 @@ function App() {
 
             <p className="total">Total net purchase value: {totalNetPurchaseValue.toFixed(2)}</p>
 
-            <button type="button" onClick={calculateRevenue} disabled={purchases.length === 0}>
-              Calculate revenue
-            </button>
+            <div className="actions">
+              <button type="button" onClick={calculateRevenue} disabled={purchases.length === 0}>
+                Calculate revenue
+              </button>
+              <button type="button" onClick={downloadPdfReport} disabled={purchases.length === 0}>
+                Download PDF report
+              </button>
+            </div>
           </section>
 
           <section className="card">

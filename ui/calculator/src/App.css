@@ -115,6 +115,12 @@ tbody button:hover:not(:disabled) {
   color: #2b3140;
 }
 
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
 @media (max-width: 760px) {
   .page {
     padding-top: 1.2rem;
