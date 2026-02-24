@@ -15,8 +15,50 @@ function App() {
   const [revenueRows, setRevenueRows] = useState([])
   const [artistTotals, setArtistTotals] = useState([])
   const [artistCredits, setArtistCredits] = useState([])
+  const [lookupType, setLookupType] = useState('artist')
+  const [lookupTarget, setLookupTarget] = useState('')
 
   const allowedAssets = useMemo(() => Object.keys(assetData), [assetData])
+
+  const artistCreditMap = useMemo(() => {
+    const creditsMap = {}
+
+    for (const [assetName, contributors] of Object.entries(assetData)) {
+      for (const [artistName, credit] of Object.entries(contributors)) {
+        if (!creditsMap[artistName]) {
+          creditsMap[artistName] = []
+        }
+
+        creditsMap[artistName].push({
+          asset: assetName,
+          credit,
+        })
+      }
+    }
+
+    return creditsMap
+  }, [assetData])
+
+  const lookupOptions = useMemo(() => {
+    if (lookupType === 'artist') {
+      return Object.keys(artistCreditMap).sort((a, b) => a.localeCompare(b))
+    }
+
+    return allowedAssets.slice().sort((a, b) => a.localeCompare(b))
+  }, [lookupType, artistCreditMap, allowedAssets])
+
+  const selectedArtistCredits = lookupType === 'artist' ? artistCreditMap[lookupTarget] ?? [] : []
+  const selectedAssetContributors =
+    lookupType === 'asset' ? Object.entries(assetData[lookupTarget] ?? {}) : []
+
+  const selectedArtistTotalCredit = selectedArtistCredits.reduce(
+    (sum, row) => sum + row.credit,
+    0,
+  )
+  const selectedAssetTotalCredit = selectedAssetContributors.reduce(
+    (sum, [, credit]) => sum + credit,
+    0,
+  )
 
   useEffect(() => {
     const loadAssets = async () => {
@@ -41,6 +83,17 @@ function App() {
 
     loadAssets()
   }, [])
+
+  useEffect(() => {
+    if (lookupOptions.length === 0) {
+      setLookupTarget('')
+      return
+    }
+
+    if (!lookupOptions.includes(lookupTarget)) {
+      setLookupTarget(lookupOptions[0])
+    }
+  }, [lookupOptions, lookupTarget])
 
   const addPurchase = () => {
     const parsedAmount = Number(amount)
@@ -266,6 +319,84 @@ function App() {
             <button type="button" onClick={addPurchase}>
               Add purchase
             </button>
+          </section>
+
+          <section className="card">
+            <h2>Credit lookup (general)</h2>
+            <div className="row">
+              <label>
+                Lookup by
+                <select value={lookupType} onChange={(event) => setLookupType(event.target.value)}>
+                  <option value="artist">Artist</option>
+                  <option value="asset">Asset</option>
+                </select>
+              </label>
+
+              <label>
+                {lookupType === 'artist' ? 'Artist' : 'Asset'}
+                <select
+                  value={lookupTarget}
+                  onChange={(event) => setLookupTarget(event.target.value)}
+                  disabled={lookupOptions.length === 0}
+                >
+                  {lookupOptions.map((option) => (
+                    <option key={option} value={option}>
+                      {option}
+                    </option>
+                  ))}
+                </select>
+              </label>
+            </div>
+
+            {!lookupTarget ? (
+              <p>No credits available in the loaded JSON.</p>
+            ) : lookupType === 'artist' ? (
+              <>
+                <p className="total">Total credits for {lookupTarget}: {selectedArtistTotalCredit}</p>
+                <table>
+                  <thead>
+                    <tr>
+                      <th>Asset</th>
+                      <th>Credit</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {selectedArtistCredits.map((row) => (
+                      <tr key={`${lookupTarget}-${row.asset}`}>
+                        <td>{row.asset}</td>
+                        <td>{row.credit}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </>
+            ) : (
+              <>
+                <p className="total">Total credits for {lookupTarget}: {selectedAssetTotalCredit}</p>
+                <table>
+                  <thead>
+                    <tr>
+                      <th>Artist</th>
+                      <th>Credit</th>
+                      <th>Credit %</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {selectedAssetContributors.map(([artistName, credit]) => (
+                      <tr key={`${lookupTarget}-${artistName}`}>
+                        <td>{artistName}</td>
+                        <td>{credit}</td>
+                        <td>
+                          {selectedAssetTotalCredit
+                            ? `${((credit / selectedAssetTotalCredit) * 100).toFixed(2)}%`
+                            : '0.00%'}
+                        </td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </>
+            )}
           </section>
 
           <section className="card">
