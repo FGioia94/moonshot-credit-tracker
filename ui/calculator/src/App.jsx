@@ -17,6 +17,7 @@ function App() {
   const [artistCredits, setArtistCredits] = useState([])
   const [lookupType, setLookupType] = useState('artist')
   const [lookupTarget, setLookupTarget] = useState('')
+  const [lookupSortBy, setLookupSortBy] = useState('name')
 
   const allowedAssets = useMemo(() => Object.keys(assetData), [assetData])
 
@@ -51,6 +52,31 @@ function App() {
   const selectedAssetContributors =
     lookupType === 'asset' ? Object.entries(assetData[lookupTarget] ?? {}) : []
 
+  const sortedSelectedArtistCredits = useMemo(() => {
+    const rows = selectedArtistCredits.slice()
+
+    if (lookupSortBy === 'credits') {
+      rows.sort((a, b) => b.credit - a.credit || a.asset.localeCompare(b.asset))
+      return rows
+    }
+
+    rows.sort((a, b) => a.asset.localeCompare(b.asset) || b.credit - a.credit)
+    return rows
+  }, [selectedArtistCredits, lookupSortBy])
+
+  const sortedSelectedAssetContributors = useMemo(() => {
+    const rows = selectedAssetContributors
+      .map(([artistName, credit]) => ({ artistName, credit }))
+
+    if (lookupSortBy === 'credits') {
+      rows.sort((a, b) => b.credit - a.credit || a.artistName.localeCompare(b.artistName))
+      return rows
+    }
+
+    rows.sort((a, b) => a.artistName.localeCompare(b.artistName) || b.credit - a.credit)
+    return rows
+  }, [selectedAssetContributors, lookupSortBy])
+
   const selectedArtistTotalCredit = selectedArtistCredits.reduce(
     (sum, row) => sum + row.credit,
     0,
@@ -64,7 +90,7 @@ function App() {
     const loadAssets = async () => {
       try {
         const assetsUrl = `${import.meta.env.BASE_URL}assets_data.json`
-        const response = await fetch(assetsUrl)
+        const response = await fetch(assetsUrl, { cache: 'no-store' })
         if (!response.ok) {
           throw new Error('Failed to load assets_data.json')
         }
@@ -346,6 +372,17 @@ function App() {
                   ))}
                 </select>
               </label>
+
+              <label>
+                Sort by
+                <select
+                  value={lookupSortBy}
+                  onChange={(event) => setLookupSortBy(event.target.value)}
+                >
+                  <option value="name">Name</option>
+                  <option value="credits">Credits amount</option>
+                </select>
+              </label>
             </div>
 
             {!lookupTarget ? (
@@ -361,7 +398,7 @@ function App() {
                     </tr>
                   </thead>
                   <tbody>
-                    {selectedArtistCredits.map((row) => (
+                    {sortedSelectedArtistCredits.map((row) => (
                       <tr key={`${lookupTarget}-${row.asset}`}>
                         <td>{row.asset}</td>
                         <td>{row.credit}</td>
@@ -382,13 +419,13 @@ function App() {
                     </tr>
                   </thead>
                   <tbody>
-                    {selectedAssetContributors.map(([artistName, credit]) => (
-                      <tr key={`${lookupTarget}-${artistName}`}>
-                        <td>{artistName}</td>
-                        <td>{credit}</td>
+                    {sortedSelectedAssetContributors.map((row) => (
+                      <tr key={`${lookupTarget}-${row.artistName}`}>
+                        <td>{row.artistName}</td>
+                        <td>{row.credit}</td>
                         <td>
                           {selectedAssetTotalCredit
-                            ? `${((credit / selectedAssetTotalCredit) * 100).toFixed(2)}%`
+                            ? `${((row.credit / selectedAssetTotalCredit) * 100).toFixed(2)}%`
                             : '0.00%'}
                         </td>
                       </tr>
