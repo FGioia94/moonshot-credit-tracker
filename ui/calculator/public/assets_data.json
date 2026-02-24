@@ -152,7 +152,7 @@
         "Gioachino Cassaro": 0.3
     },
     "Elephant_Silver": {
-        "Lorenzo Amendola": 0.2,
+        "Lorenzo Amendola": 2.5,
         "Sebastiano Dalla Mora": 3.5,
         "Andrea Carocci": 1.5,
         "Hugo Legay": 0.1,
@@ -168,7 +168,7 @@
         "Margot Brun": 0.7
     },
     "Elephant_Gold": {
-        "Lorenzo Amendola": 0.2,
+        "Lorenzo Amendola": 2.5,
         "Sebastiano Dalla Mora": 3.5,
         "Emanuele Meloni": 3.3,
         "Andrea Carocci": 1.5,
@@ -186,7 +186,7 @@
         "Margot Brun": 0.7
     },
     "Elephant_Platinum": {
-        "Lorenzo Amendola": 0.2,
+        "Lorenzo Amendola": 2.5,
         "Sebastiano Dalla Mora": 3.5,
         "Emanuele Meloni": 3.3,
         "Yuri Perrini": 0.2,
@@ -207,7 +207,7 @@
         "Margot Brun": 0.7
     },
     "Elephant_Diamond": {
-        "Lorenzo Amendola": 0.2,
+        "Lorenzo Amendola": 2.5,
         "Sebastiano Dalla Mora": 3.5,
         "Emanuele Meloni": 3.3,
         "Laurie Garnier": 0.1,
@@ -684,7 +684,7 @@
         "Mattia Pezzuto": 0.5,
         "Sebastiano Dalla Mora": 0.75,
         "Hugo Legay": 0.35,
-        "Anissa Cugnet": 3.5,
+        "Anissa Cugniet": 3.5,
         "Alessandra Monchelato": 0.15,
         "Maxence Corriette": 0.5,
         "Francesco Gioia": 1,
@@ -699,7 +699,7 @@
         "Mattia Pezzuto": 0.5,
         "Sebastiano Dalla Mora": 0.75,
         "Hugo Legay": 0.35,
-        "Anissa Cugnet": 3.5,
+        "Anissa Cugniet": 3.5,
         "Emanuele Meloni": 1.3,
         "Leonardo Franci": 2.2,
         "Alessandra Monchelato": 0.15,
@@ -716,7 +716,7 @@
         "Mattia Pezzuto": 0.5,
         "Sebastiano Dalla Mora": 0.75,
         "Hugo Legay": 0.35,
-        "Anissa Cugnet": 3.5,
+        "Anissa Cugniet": 3.5,
         "Emanuele Meloni": 1.3,
         "Leonardo Franci": 2.2,
         "Rohan Jaishwar": 1,
