@@ -6,11 +6,11 @@
         "Andrea Califano": 1.25,
         "Matteo Arabella": 1.25,
         "Sebastiano Dalla Mora": 0.65,
-        "Hugo Legay": 0.6,
+        "Hugo Legay": 0.7,
         "Elena Fontana": 2.5,
         "Vipin Kabadi": 0.6,
         "Margot Brun": 0.4,
-        "Maxence Corriette": 0.5,
+        "Maxence Corriette": 0.4,
         "Francesco Gioia": 1.0,
         "Silvia Battilomo": 0.3,
         "Francesco Giannotta": 0.3,
@@ -23,12 +23,12 @@
         "Andrea Califano": 1.25,
         "Matteo Arabella": 1.55,
         "Sebastiano Dalla Mora": 0.65,
-        "Hugo Legay": 0.6,
+        "Hugo Legay": 0.7,
         "Elena Fontana": 2.5,
         "Vipin Kabadi": 0.6,
         "Margot Brun": 0.4,
         "Emanuele Meloni": 3.2,
-        "Maxence Corriette": 0.5,
+        "Maxence Corriette": 0.4,
         "Francesco Gioia": 1.0,
         "Andrea Bellini": 0.25,
         "Silvia Battilomo": 0.3,
@@ -42,14 +42,14 @@
         "Andrea Califano": 1.25,
         "Matteo Arabella": 1.55,
         "Sebastiano Dalla Mora": 0.65,
-        "Hugo Legay": 0.6,
+        "Hugo Legay": 0.7,
         "Elena Fontana": 2.5,
         "Vipin Kabadi": 0.6,
         "Margot Brun": 0.4,
         "Emanuele Meloni": 3.2,
         "Yuri Perrini": 0.5,
         "Rohan Jaishwar": 1.0,
-        "Maxence Corriette": 0.5,
+        "Maxence Corriette": 0.4,
         "Francesco Gioia": 1.0,
         "Andrea Bellini": 0.25,
         "Silvia Battilomo": 0.3,
@@ -63,7 +63,7 @@
         "Andrea Califano": 1.25,
         "Matteo Arabella": 1.55,
         "Sebastiano Dalla Mora": 0.65,
-        "Hugo Legay": 0.6,
+        "Hugo Legay": 0.7,
         "Elena Fontana": 2.5,
         "Vipin Kabadi": 0.6,
         "Margot Brun": 0.4,
@@ -78,7 +78,7 @@
         "Te Ling Hsu": 0.3,
         "Yuri Perrini": 0.5,
         "Rohan Jaishwar": 1.0,
-        "Maxence Corriette": 0.5,
+        "Maxence Corriette": 0.4,
         "Francesco Gioia": 1.0,
         "Andrea Bellini": 0.25,
         "Silvia Battilomo": 0.3,
@@ -158,7 +158,7 @@
         "Andrea Carocci": 1.5,
         "Hugo Legay": 0.1,
         "Manon Deffert": 0.15,
-        "Maxence Corriette": 0.5,
+        "Maxence Corriette": 0.4,
         "Francesco Gioia": 1,
         "Silvia Battilomo": 0.3,
         "Francesco Giannotta": 0.3,
@@ -166,7 +166,8 @@
         "Gioachino Cassaro": 0.3,
         "Fabiana Ciatti": 0.7,
         "Lorenzo Foti": 0.7,
-        "Margot Brun": 0.7
+        "Margot Brun": 0.7,
+        "Paul Vallette": 0.1
     },
     "Elephant_Gold": {
         "Lorenzo Amendola": 2.7,
@@ -175,7 +176,7 @@
         "Andrea Carocci": 1.5,
         "Hugo Legay": 0.1,
         "Manon Deffert": 0.15,
-        "Maxence Corriette": 0.5,
+        "Maxence Corriette": 0.4,
         "Francesco Gioia": 1,
         "Andrea Bellini": 0.25,
         "Silvia Battilomo": 0.3,
@@ -184,7 +185,8 @@
         "Gioachino Cassaro": 0.3,
         "Fabiana Ciatti": 0.7,
         "Lorenzo Foti": 0.7,
-        "Margot Brun": 0.7
+        "Margot Brun": 0.7,
+        "Paul Vallette": 0.1
     },
     "Elephant_Platinum": {
         "Lorenzo Amendola": 2.7,
@@ -196,7 +198,7 @@
         "Andrea Carocci": 1.5,
         "Hugo Legay": 0.1,
         "Manon Deffert": 0.15,
-        "Maxence Corriette": 0.5,
+        "Maxence Corriette": 0.4,
         "Francesco Gioia": 1,
         "Andrea Bellini": 0.25,
         "Silvia Battilomo": 0.3,
@@ -205,7 +207,8 @@
         "Gioachino Cassaro": 0.3,
         "Fabiana Ciatti": 0.7,
         "Lorenzo Foti": 0.7,
-        "Margot Brun": 0.7
+        "Margot Brun": 0.7,
+        "Paul Vallette": 0.1
     },
     "Elephant_Diamond": {
         "Lorenzo Amendola": 2.7,
@@ -224,7 +227,7 @@
         "Andrea Carocci": 1.5,
         "Hugo Legay": 0.1,
         "Manon Deffert": 0.15,
-        "Maxence Corriette": 0.5,
+        "Maxence Corriette": 0.4,
         "Francesco Gioia": 1,
         "Andrea Bellini": 0.25,
         "Silvia Battilomo": 0.3,
@@ -234,7 +237,8 @@
         "Fabiana Ciatti": 0.7,
         "Lorenzo Foti": 0.7,
         "Margot Brun": 0.7,
-        "Marta Giacobbe": 0.1
+        "Marta Giacobbe": 0.1,
+        "Paul Vallette": 0.1
     },
     "Fennec_Silver": {
         "Davide Sasselli": 0.2,
@@ -332,7 +336,7 @@
         "Rohan Jaishwar": 0.3,
         "Andrea Carocci": 1.5,
         "Hugo Legay": 0.25,
-        "Maxence Corriette": 0.5,
+        "Maxence Corriette": 0.4,
         "Francesco Gioia": 1,
         "Andrea Bellini": 0.25,
         "Silvia Battilomo": 0.3,
@@ -342,7 +346,8 @@
         "Simona Orlando": 0.5,
         "Noa Lavino": 0.5,
         "Leonel Nguyen": 0.75,
-        "Marta Giacobbe": 0.1
+        "Marta Giacobbe": 0.1,
+        "Paul Vallette": 0.1
     },
     "Hippo_Gold": {
         "Mattia Pezzuto": 2.5,
@@ -354,7 +359,7 @@
         "Rohan Jaishwar": 0.3,
         "Andrea Carocci": 1.5,
         "Hugo Legay": 0.25,
-        "Maxence Corriette": 0.5,
+        "Maxence Corriette": 0.4,
         "Francesco Gioia": 1,
         "Andrea Bellini": 0.25,
         "Silvia Battilomo": 0.3,
@@ -364,7 +369,8 @@
         "Simona Orlando": 0.5,
         "Noa Lavino": 0.5,
         "Leonel Nguyen": 0.75,
-        "Marta Giacobbe": 0.1
+        "Marta Giacobbe": 0.1,
+        "Paul Vallette": 0.1
     },
     "Hippo_Platinum": {
         "Mattia Pezzuto": 2.5,
@@ -379,7 +385,7 @@
         "Sydney Bailargeon": 0.33,
         "Andrea Carocci": 1.5,
         "Hugo Legay": 0.25,
-        "Maxence Corriette": 0.5,
+        "Maxence Corriette": 0.4,
         "Francesco Gioia": 1,
         "Andrea Bellini": 0.25,
         "Silvia Battilomo": 0.3,
@@ -389,7 +395,8 @@
         "Simona Orlando": 0.5,
         "Noa Lavino": 0.5,
         "Leonel Nguyen": 0.75,
-        "Marta Giacobbe": 0.1
+        "Marta Giacobbe": 0.1,
+        "Paul Vallette": 0.1
     },
     "Hippo_Diamond": {
         "Mattia Pezzuto": 2.5,
@@ -411,7 +418,7 @@
         "Sydney Bailargeon": 0.33,
         "Andrea Carocci": 1.5,
         "Hugo Legay": 0.25,
-        "Maxence Corriette": 0.5,
+        "Maxence Corriette": 0.4,
         "Francesco Gioia": 1,
         "Andrea Bellini": 0.25,
         "Silvia Battilomo": 0.3,
@@ -421,7 +428,8 @@
         "Simona Orlando": 0.5,
         "Noa Lavino": 0.5,
         "Leonel Nguyen": 0.75,
-        "Marta Giacobbe": 0.1
+        "Marta Giacobbe": 0.1,
+        "Paul Vallette": 0.1
     },
     "Komodo_Silver": {
         "Tiziano Palumbo": 0.1,
@@ -696,12 +704,13 @@
         "Hugo Legay": 0.35,
         "Anissa Cugniet": 3.5,
         "Alessandra Monchelato": 0.15,
-        "Maxence Corriette": 0.5,
+        "Maxence Corriette": 0.4,
         "Francesco Gioia": 1,
         "Silvia Battilomo": 0.3,
         "Francesco Giannotta": 0.3,
         "Nicolas Acevedo Ferrate": 0.3,
-        "Gioachino Cassaro": 0.3
+        "Gioachino Cassaro": 0.3,
+        "Paul Vallette": 0.1
     },
     "Octopus_Gold": {
         "Davide Sasselli": 0.15,
@@ -713,12 +722,13 @@
         "Emanuele Meloni": 1.3,
         "Leonardo Franci": 2.2,
         "Alessandra Monchelato": 0.15,
-        "Maxence Corriette": 0.5,
+        "Maxence Corriette": 0.4,
         "Francesco Gioia": 1,
         "Silvia Battilomo": 0.3,
         "Francesco Giannotta": 0.3,
         "Nicolas Acevedo Ferrate": 0.3,
-        "Gioachino Cassaro": 0.3
+        "Gioachino Cassaro": 0.3,
+        "Paul Vallette": 0.1
     },
     "Octopus_Platinum": {
         "Davide Sasselli": 0.15,
@@ -731,12 +741,13 @@
         "Leonardo Franci": 2.2,
         "Rohan Jaishwar": 1,
         "Alessandra Monchelato": 0.15,
-        "Maxence Corriette": 0.5,
+        "Maxence Corriette": 0.4,
         "Francesco Gioia": 1,
         "Silvia Battilomo": 0.3,
         "Francesco Giannotta": 0.3,
         "Nicolas Acevedo Ferrate": 0.3,
-        "Gioachino Cassaro": 0.3
+        "Gioachino Cassaro": 0.3,
+        "Paul Vallette": 0.1
     },
     "Pig_Silver": {
         "Davide Sasselli": 0.6,
@@ -899,12 +910,13 @@
         "Hugo Legay": 0.6,
         "Philip Laa": 3.5,
         "Andrea Carocci": 0,
-        "Maxence Corriette": 0.5,
+        "Maxence Corriette": 0.4,
         "Francesco Gioia": 1,
         "Silvia Battilomo": 0.3,
         "Francesco Giannotta": 0.3,
         "Nicolas Acevedo Ferrate": 0.3,
-        "Gioachino Cassaro": 0.3
+        "Gioachino Cassaro": 0.3,
+        "Paul Vallette": 0.1
     },
     "Sheep_Gold": {
         "Davide Sasselli": 0.4,
@@ -916,13 +928,14 @@
         "Andrea Montagner": 2.2,
         "Matteo Minardi": 0.3,
         "Andrea Carocci": 0,
-        "Maxence Corriette": 0.5,
+        "Maxence Corriette": 0.4,
         "Francesco Gioia": 1,
         "Andrea Bellini": 0.25,
         "Silvia Battilomo": 0.3,
         "Francesco Giannotta": 0.3,
         "Nicolas Acevedo Ferrate": 0.3,
-        "Gioachino Cassaro": 0.3
+        "Gioachino Cassaro": 0.3,
+        "Paul Vallette": 0.1
     },
     "Sheep_Platinum": {
         "Davide Sasselli": 0.4,
@@ -938,13 +951,14 @@
         "Jonathan Lally": 0.33,
         "Iolanda Filipponi": 0.66,
         "Andrea Carocci": 0,
-        "Maxence Corriette": 0.5,
+        "Maxence Corriette": 0.4,
         "Francesco Gioia": 1,
         "Andrea Bellini": 0.25,
         "Silvia Battilomo": 0.3,
         "Francesco Giannotta": 0.3,
         "Nicolas Acevedo Ferrate": 0.3,
-        "Gioachino Cassaro": 0.3
+        "Gioachino Cassaro": 0.3,
+        "Paul Vallette": 0.1
     },
     "Sheep_Diamond": {
         "Davide Sasselli": 0.4,
@@ -967,13 +981,14 @@
         "Jonathan Lally": 0.33,
         "Iolanda Filipponi": 0.66,
         "Andrea Carocci": 0,
-        "Maxence Corriette": 0.5,
+        "Maxence Corriette": 0.4,
         "Francesco Gioia": 1,
         "Andrea Bellini": 0.25,
         "Silvia Battilomo": 0.3,
         "Francesco Giannotta": 0.3,
         "Nicolas Acevedo Ferrate": 0.3,
-        "Gioachino Cassaro": 0.3
+        "Gioachino Cassaro": 0.3,
+        "Paul Vallette": 0.1
     },
     "Squirrel_Silver": {
         "Davide Sasselli": 0.3,
@@ -1167,18 +1182,19 @@
         "Elena Fontana": 5,
         "Sebastiano Dalla Mora": 2,
         "Hugo Legay": 0.25,
-        "Maxence Corriette": 0.5,
+        "Maxence Corriette": 0.4,
         "Francesco Gioia": 1,
         "Silvia Battilomo": 0.3,
         "Francesco Giannotta": 0.3,
         "Nicolas Acevedo Ferrate": 0.3,
-        "Gioachino Cassaro": 0.3
+        "Gioachino Cassaro": 0.3,
+        "Paul Vallette": 0.1
     },
     "Wolf_Gold": {
         "Elena Fontana": 5,
         "Sebastiano Dalla Mora": 2,
         "Hugo Legay": 0.25,
-        "Maxence Corriette": 0.5,
+        "Maxence Corriette": 0.4,
         "Andrea Bellini": 0.25,
         "Francesco Gioia": 1,
         "Silvia Battilomo": 0.3,
@@ -1186,13 +1202,14 @@
         "Nicolas Acevedo Ferrate": 0.3,
         "Gioachino Cassaro": 0.3,
         "Emanuele Meloni": 1.02,
-        "Leonardo Franci": 2.48
+        "Leonardo Franci": 2.48,
+        "Paul Vallette": 0.1
     },
     "Wolf_Platinum": {
         "Elena Fontana": 5,
         "Sebastiano Dalla Mora": 2,
         "Hugo Legay": 0.25,
-        "Maxence Corriette": 0.5,
+        "Maxence Corriette": 0.4,
         "Francesco Gioia": 1,
         "Andrea Bellini": 0.25,
         "Silvia Battilomo": 0.3,
@@ -1201,13 +1218,14 @@
         "Gioachino Cassaro": 0.3,
         "Emanuele Meloni": 1.02,
         "Leonardo Franci": 2.48,
-        "Rohan Jaishwar": 1
+        "Rohan Jaishwar": 1,
+        "Paul Vallette": 0.1
     },
     "Wolf_Diamond": {
         "Elena Fontana": 7.5,
         "Sebastiano Dalla Mora": 2,
         "Hugo Legay": 0.25,
-        "Maxence Corriette": 0.5,
+        "Maxence Corriette": 0.4,
         "Francesco Gioia": 1,
         "Andrea Bellini": 0.25,
         "Silvia Battilomo": 0.3,
@@ -1221,6 +1239,7 @@
         "Maurizio Negro": 3.15,
         "Giacomo Venturi": 1.15,
         "Andrea Galasso": 0.2,
-        "Te Ling Hsu": 0.5
+        "Te Ling Hsu": 0.5,
+        "Paul Vallette": 0.1
     }
 }
