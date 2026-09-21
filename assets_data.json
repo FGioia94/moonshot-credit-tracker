@@ -328,6 +328,19 @@
         "Gioachino Cassaro": 0.3,
         "Marta Giacobbe": 0.1
     },
+    "German_Sheperd_Model": {
+        "Francesco Gioia": 1.1,
+        "Alessandro Bandinelli": 2.5,
+        "Silvia Battilomo": 0.3,
+        "Francesco Giannotta": 0.3,
+        "Nicolas Acevedo Ferrate": 0.3,
+        "Gioachino Cassaro": 0.3,
+        "Maxence Corriette": 0.2,
+        "Jurrian Witmans": 0.2,
+        "Tiziano Palumbo": 0.1,
+        "Andrea Salvatori": 0.1
+    },
+
     "Hippo_Silver": {
         "Mattia Pezzuto": 2.5,
         "Sebastiano Dalla Mora": 2.0,
@@ -1242,4 +1255,5 @@
         "Te Ling Hsu": 0.5,
         "Paul Vallette": 0.1
     }
+
 }

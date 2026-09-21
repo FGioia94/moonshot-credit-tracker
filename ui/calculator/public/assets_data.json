@@ -1,5 +1,16 @@
-{    
-    
+{
+    "Ant_Model": {
+        "Marta Giacobbe": 2.5,
+        "Francesco Gioia": 1.0,
+        "Silvia Battilomo": 0.3,
+        "Francesco Giannotta": 0.3,
+        "Andrea Salvatori": 0.5,
+        "Nicolas Acevedo Ferrate": 0.3,
+        "Gioachino Cassaro": 0.3,
+        "Maxence Corriette": 0.2,
+        "Jurrian Witmans": 0.2,
+        "Tiziano Palumbo": 0.5
+    },
     "Antelope_Silver": {
         "Tiziano Palumbo": 0.7,
         "Davide Sasselli": 0.3,
@@ -87,6 +98,170 @@
         "Gioachino Cassaro": 0.3,
         "Marta Giacobbe": 0.1
     },
+    "Bee_Model": {
+        "Francesco Pagliocca": 1.5,
+        "Pietro Vezzaro": 1.0,
+        "Francesco Gioia": 1.0,
+        "Silvia Battilomo": 0.3,
+        "Francesco Giannotta": 0.3,
+        "Nicolas Acevedo Ferrate": 0.3,
+        "Gioachino Cassaro": 0.15,
+        "Maxence Corriette": 0.2,
+        "Jurrian Witmans": 0.2,
+        "Umberto D'Andrea": 0.7,
+        "Davide Sasselli": 0.15,
+        "Andrea Salvatori": 0.15
+    },
+    "Beetle_Model": {
+        "Linda Bertlino": 2.5,
+        "Francesco Gioia": 1.0,
+        "Silvia Battilomo": 0.3,
+        "Francesco Giannotta": 0.3,
+        "Nicolas Acevedo Ferrate": 0.3,
+        "Gioachino Cassaro": 0.15,
+        "Maxence Corriette": 0.2,
+        "Jurrian Witmans": 0.2,
+        "Tiziano Palumbo": 0.4,
+        "Andrea Salvatori": 0.6,
+        "Lorenzo Ruggiero": 0.2
+    },
+    "Buffalo_Model": {
+        "Stefano Costarelli": 2.5,
+        "Francesco Gioia": 1.0,
+        "Silvia Battilomo": 0.15,
+        "Francesco Giannotta": 0.15,
+        "Nicolas Acevedo Ferrate": 0.15,
+        "Gioachino Cassaro": 0.15,
+        "Maxence Corriette": 0.2,
+        "Jurrian Witmans": 0.2,
+        "Tiziano Palumbo": 0.6,
+        "Lorenzo Ruggiero": 0.2
+    },
+    "Bullfrog_Model": {
+        "Alessia Giudici": 2.5,
+        "Francesco Gioia": 1.0,
+        "Gioachino Cassaro": 0.15,
+        "Maxence Corriette": 0.2,
+        "Jurrian Witmans": 0.2,
+        "Umberto D'Andrea": 1
+    },
+    "Camel_Model": {
+        "Jurrian Witmans": 2.7,
+        "Francesco Gioia": 1.0,
+        "Silvia Battilomo": 0.3,
+        "Francesco Giannotta": 0.3,
+        "Nicolas Acevedo Ferrate": 0.3,
+        "Gioachino Cassaro": 0.15,
+        "Maxence Corriette": 0.2,
+        "Tiziano Palumbo": 1,
+        "Anton Hartfelt": 0.2
+    },
+    "Cat_Model": {
+        "Christian Del Grande": 0.7,
+        "Francesco Vercesi": 0.7,
+        "Francesco Labadessa": 0.7,
+        "Francesco Gioia": 1.0,
+        "Silvia Battilomo": 0.3,
+        "Francesco Giannotta": 0.3,
+        "Nicolas Acevedo Ferrate": 0.3,
+        "Gioachino Cassaro": 0.15,
+        "Maxence Corriette": 0.2,
+        "Tiziano Palumbo": 0.8,
+        "Davide Sasselli": 0.2,
+        "Jurrian Witmans": 0.2
+    },
+    "Chimpanzee_Model": {
+        "Shanto Paul": 2.5,
+        "Francesco Gioia": 1.0,
+        "Silvia Battilomo": 0.3,
+        "Francesco Giannotta": 0.3,
+        "Nicolas Acevedo Ferrate": 0.3,
+        "Gioachino Cassaro": 0.15,
+        "Maxence Corriette": 0.2,
+        "Anton Hartfelt": 0.2,
+        "Jurrian Witmans": 0.2
+    },
+    "Cheetah_Model": {
+        "Sara Raccio": 1.0,
+        "Mattia Pezzuto": 1.5,
+        "Davide Sasselli": 0.5,
+        "Tiziano Palumbo": 0.1,
+        "Shanto Paul": 0.3,
+        "Andrea Salvatori": 0.1,
+        "Francesco Gioia": 1.0,
+        "Silvia Battilomo": 0.1,
+        "Francesco Giannotta": 0.1,
+        "Nicolas Acevedo Ferrate": 0.1,
+        "Bianca Santarelli": 0.1,
+        "Gioachino Cassaro": 0.15,
+        "Maxence Corriette": 0.2,
+        "Jurrian Witmans": 0.2
+    },
+    "Cobra_Model": {
+        "Matteo Hu": 1.25,
+        "Jules Peron": 1.25,
+        "Francesco Gioia": 1.0,
+        "Silvia Battilomo": 0.3,
+        "Francesco Giannotta": 0.3,
+        "Nicolas Acevedo Ferrate": 0.3,
+        "Gioachino Cassaro": 0.15,
+        "Maxence Corriette": 0.2,
+        "Davide Sasselli": 0.25,
+        "Tiziano Palumbo": 0.25,
+        "Andrea Salvatori": 0.25,
+        "Umberto D'Andrea": 0.25,
+        "Anton Hartfelt": 0.2
+    },
+    "Cow_Model": {
+        "Mattia Pezzuto": 2.5,
+        "Francesco Gioia": 1.0,
+        "Silvia Battilomo": 0.3,
+        "Francesco Giannotta": 0.3,
+        "Nicolas Acevedo Ferrate": 0.3,
+        "Gioachino Cassaro": 0.15,
+        "Maxence Corriette": 0.2,
+        "Jurrian Witmans": 0.2,
+        "Tiziano Palumbo": 0.25,
+        "Andrea Salvatori": 0.25,
+        "Shanto Paul": 0.25,
+        "Davide Sasselli": 0.25,
+        "Anton Hartfelt": 0.2
+    },
+    "Crocodile_Model": {
+        "Matteo Arabella": 2.5,
+        "Francesco Gioia": 1.0,
+        "Silvia Battilomo": 0.3,
+        "Francesco Giannotta": 0.3,
+        "Nicolas Acevedo Ferrate": 0.3,
+        "Gioachino Cassaro": 0.15,
+        "Maxence Corriette": 0.2,
+        "Jurrian Witmans": 0.2,
+        "Tiziano Palumbo": 1,
+        "Lorenzo Ruggiero": 0.2
+    },
+    "Crow_Model": {
+        "Shanto Paul": 2.5,
+        "Francesco Gioia": 1.0,
+        "Silvia Battilomo": 0.3,
+        "Francesco Giannotta": 0.3,
+        "Nicolas Acevedo Ferrate": 0.3,
+        "Gioachino Cassaro": 0.15,
+        "Maxence Corriette": 0.2,
+        "Jurrian Witmans": 0.2,
+        "Lorenzo Ruggiero": 0.2
+    },
+    "Cricket_Model": {
+        "Pietro Vezzaro": 2.5,
+        "Francesco Gioia": 1.0,
+        "Silvia Battilomo": 0.3,
+        "Francesco Giannotta": 0.3,
+        "Nicolas Acevedo Ferrate": 0.3,
+        "Gioachino Cassaro": 0.15,
+        "Maxence Corriette": 0.2,
+        "Jurrian Witmans": 0.2,
+        "Andrea Salvatori": 1,
+        "Lorenzo Ruggiero": 0.2
+    },
     "Dolphin_Silver": {
         "Davide Sasselli": 0.4,
         "Matteo Arabella": 2.5,
@@ -151,6 +326,18 @@
         "Francesco Giannotta": 0.3,
         "Nicolas Acevedo Ferrate": 0.3,
         "Gioachino Cassaro": 0.3
+    },
+    "Eagle_Model": {
+        "Jules Peron": 2.5,
+        "Francesco Gioia": 1.0,
+        "Silvia Battilomo": 0.3,
+        "Francesco Giannotta": 0.3,
+        "Nicolas Acevedo Ferrate": 0.3,
+        "Gioachino Cassaro": 0.15,
+        "Maxence Corriette": 0.2,
+        "Jurrian Witmans": 0.2,
+        "Tiziano Palumbo": 1,
+        "Lorenzo Ruggiero": 0.2
     },
     "Elephant_Silver": {
         "Lorenzo Amendola": 2.5,
@@ -328,6 +515,66 @@
         "Gioachino Cassaro": 0.3,
         "Marta Giacobbe": 0.1
     },
+    "Fox_Model": {
+        "Nicolas Morel": 2.5,
+        "Francesco Gioia": 1.0,
+        "Silvia Battilomo": 0.3,
+        "Francesco Giannotta": 0.3,
+        "Nicolas Acevedo Ferrate": 0.3,
+        "Gioachino Cassaro": 0.15,
+        "Maxence Corriette": 0.2,
+        "Jurrian Witmans": 0.2,
+        "Lorenzo Ruggiero": 0.2
+    },
+    "German_Sheperd_Model": {
+        "Francesco Gioia": 1.1,
+        "Alessandro Bandinelli": 2.5,
+        "Silvia Battilomo": 0.3,
+        "Francesco Giannotta": 0.3,
+        "Nicolas Acevedo Ferrate": 0.3,
+        "Gioachino Cassaro": 0.3,
+        "Maxence Corriette": 0.2,
+        "Jurrian Witmans": 0.2,
+        "Tiziano Palumbo": 0.1,
+        "Andrea Salvatori": 0.1
+    },
+    "Giraffe_Model": {
+        "Francesco Gioia": 1.0,
+        "Tiziano Palumbo": 0.5,
+        "Davide Sasselli": 0.25,
+        "Andrea Salvatori": 0.25,
+        "Silvia Battilomo": 0.15,
+        "Francesco Giannotta": 0.15,
+        "Nicolas Acevedo Ferrate": 0.15,
+        "Gioachino Cassaro": 0.15,
+        "Maxence Corriette": 0.2,
+        "Jurrian Witmans": 2.7,
+        "Lorenzo Ruggiero": 0.2
+    },
+    "Gorilla_Model": {
+        "Francesco Gioia": 1.1,
+        "Matteo Minardi": 2.5,
+        "Silvia Battilomo": 0.3,
+        "Francesco Giannotta": 0.3,
+        "Nicolas Acevedo Ferrate": 0.3,
+        "Gioachino Cassaro": 0.3,
+        "Maxence Corriette": 0.2,
+        "Jurrian Witmans": 0.2,
+        "Tiziano Palumbo": 0.25,
+        "Umberto D'Andrea": 0.5,
+        "Davide Sasselli": 0.25
+    },
+    "Grizzly_Model": {
+        "Lorenzo Amendola": 2.5,
+        "Francesco Gioia": 1.0,
+        "Silvia Battilomo": 0.15,
+        "Francesco Giannotta": 0.15,
+        "Nicolas Acevedo Ferrate": 0.15,
+        "Gioachino Cassaro": 0.15,
+        "Maxence Corriette": 0.2,
+        "Jurrian Witmans": 0.2,
+        "Andrea Salvatori": 0.5
+    },
     "Hippo_Silver": {
         "Mattia Pezzuto": 2.5,
         "Sebastiano Dalla Mora": 2.0,
@@ -431,6 +678,42 @@
         "Marta Giacobbe": 0.1,
         "Paul Vallette": 0.1
     },
+    "Horse_Model": {
+        "Francesco Gioia": 1.0,
+        "Stefano Costarelli": 2.5,
+        "Silvia Battilomo": 0.15,
+        "Francesco Giannotta": 0.15,
+        "Nicolas Acevedo Ferrate": 0.15,
+        "Gioachino Cassaro": 0.15,
+        "Maxence Corriette": 0.2,
+        "Jurrian Witmans": 0.2,
+        "Tiziano Palumbo": 0.1,
+        "Davide Sasselli": 0.1
+    },
+    "Hyena_Model": {
+        "Francesco Gioia": 1.0,
+        "Ashe Daniel": 1.5,
+        "Amanda Primomo": 1,
+        "Bianca Santarelli": 0.2,
+        "Gioachino Cassaro": 0.15,
+        "Maxence Corriette": 0.2,
+        "Jurrian Witmans": 0.2,
+        "Tiziano Palumbo": 0.4
+    },
+    "Kangaroo_Model": {
+        "Francesco Gioia": 1.0,
+        "Andrea Siviero": 1.5,
+        "Lorenzo Ruggiero": 1,
+        "Gioachino Cassaro": 0.15,
+        "Maxence Corriette": 0.2,
+        "Silvia Battilomo": 0.15,
+        "Francesco Giannotta": 0.15,
+        "Nicolas Acevedo Ferrate": 0.15,
+        "Bianca Santarelli": 0.1,
+        "Jurrian Witmans": 0.2,
+        "Umberto D'Andrea": 0.3,
+        "Davide Sasselli": 0.3
+    },
     "Komodo_Silver": {
         "Tiziano Palumbo": 0.1,
         "Andrea Salvatori": 0.1,
@@ -506,6 +789,73 @@
         "Francesco Giannotta": 0.3,
         "Nicolas Acevedo Ferrate": 0.3,
         "Gioachino Cassaro": 0.3
+    },
+    "Labrador_Model": {
+        "Francesco Gioia": 1.0,
+        "Felix Gourlaouen": 2.5,
+        "Gioachino Cassaro": 0.15,
+        "Maxence Corriette": 0.2,
+        "Silvia Battilomo": 0.15,
+        "Francesco Giannotta": 0.15,
+        "Nicolas Acevedo Ferrate": 0.15,
+        "Jurrian Witmans": 0.2,
+        "Umberto D'Andrea": 0.6
+    },
+    "Ladybug_Model": {
+        "Francesco Gioia": 1.0,
+        "Lorenzo Ruggiero": 2.5,
+        "Gioachino Cassaro": 0.15,
+        "Maxence Corriette": 0.2,
+        "Silvia Battilomo": 0.15,
+        "Francesco Giannotta": 0.15,
+        "Nicolas Acevedo Ferrate": 0.15,
+        "Jurrian Witmans": 0.2,
+        "Davide Sasselli": 0.3,
+        "Shanto Paul": 0.1,
+        "Lorenzo Ruggiero": 0.2
+    },
+    "Lion_Male_Model": {
+        "Francesco Gioia": 1.0,
+        "Shanto Paul": 2.5,
+        "Gioachino Cassaro": 0.15,
+        "Maxence Corriette": 0.2,
+        "Silvia Battilomo": 0.15,
+        "Francesco Giannotta": 0.15,
+        "Nicolas Acevedo Ferrate": 0.15,
+        "Jurrian Witmans": 0.2,
+        "Davide Sasselli": 0.3
+    },
+    "Lion_Female_Model": {
+        "Francesco Gioia": 1.0,
+        "Shanto Paul": 2.5,
+        "Gioachino Cassaro": 0.15,
+        "Maxence Corriette": 0.2,
+        "Silvia Battilomo": 0.15,
+        "Francesco Giannotta": 0.15,
+        "Nicolas Acevedo Ferrate": 0.15,
+        "Jurrian Witmans": 0.2,
+        "Davide Sasselli": 0.3
+    },
+    "Lizard_Model": {
+        "Francesco Gioia": 1.0,
+        "Pietro Vezzaro": 1.5,
+        "Devis Vasco": 1,
+        "Gioachino Cassaro": 0.15,
+        "Maxence Corriette": 0.2,
+        "Silvia Battilomo": 0.15,
+        "Francesco Giannotta": 0.15,
+        "Nicolas Acevedo Ferrate": 0.15,
+        "Jurrian Witmans": 0.2,
+        "Tiziano Palumbo": 0.5
+    },
+    "Manta_Model": {
+        "Francesco Gioia": 1.0,
+        "Pietro Vezzaro": 2.5,
+        "Gioachino Cassaro": 0.15,
+        "Maxence Corriette": 0.2,
+        "Bianca Santarelli": 0.25,
+        "Jurrian Witmans": 0.2,
+        "Umberto D'Andrea": 0.3
     },
     "Moose_Silver": {
         "Davide Sasselli": 0.4,
@@ -749,6 +1099,45 @@
         "Gioachino Cassaro": 0.3,
         "Paul Vallette": 0.1
     },
+    "Okapi_Model": {
+        "Francesco Gioia": 1.0,
+        "Alexander Amed Bueno": 2.5,
+        "Gioachino Cassaro": 0.15,
+        "Maxence Corriette": 0.2,
+        "Bianca Santarelli": 0.25,
+        "Jurrian Witmans": 0.2,
+        "Silvia Battilomo": 0.15,
+        "Francesco Giannotta": 0.15
+    },
+    "Orango_Model": {
+        "Francesco Gioia": 1.0,
+        "Umberto D'Andrea": 2.5,
+        "Gioachino Cassaro": 0.15,
+        "Maxence Corriette": 0.2,
+        "Bianca Santarelli": 0.25,
+        "Jurrian Witmans": 0.2,
+        "Silvia Battilomo": 0.15,
+        "Francesco Giannotta": 0.15
+    },
+    "Ostrich_Model": {
+        "Francesco Gioia": 1.0,
+        "Elena Fontana": 2.5,
+        "Gioachino Cassaro": 0.15,
+        "Maxence Corriette": 0.2,
+        "Jurrian Witmans": 0.2,
+        "Silvia Battilomo": 0.15,
+        "Francesco Giannotta": 0.15,
+        "Davide Sasselli": 0.15,
+        "Andrea Salvatori": 0.15,
+        "Tiziano Palumbo": 0.15
+    },
+    "Panda_Model": {
+        "Francesco Gioia": 1.0,
+        "Maxence Corriette": 0.2,
+        "Wray Crawford": 2.5,
+        "Jurrian Witmans": 0.2,
+        "Bianca Santarelli": 0.25,
+    },
     "Pig_Silver": {
         "Davide Sasselli": 0.6,
         "Andrea Salvatori": 0.15,
@@ -824,6 +1213,46 @@
         "Francesco Giannotta": 0.3,
         "Nicolas Acevedo Ferrate": 0.3,
         "Gioachino Cassaro": 0.3
+    },
+    "Pigeon_Model": {
+        "Francesco Gioia": 1.0,
+        "Marco Degl'Innocenti": 2.5,
+        "Jurrian Witmans": 0.2,
+        "Andrea Salvatori": 0.25
+    },
+    "Rabbit_Model": {
+        "Francesco Gioia": 1.0,
+        "Angelo Cavaliere": 1.25,
+        "Amanda Primomo": 1.25,
+        "Gioachino Cassaro": 0.15,
+        "Maxence Corriette": 0.2,
+        "Jurrian Witmans": 0.2,
+        "Silvia Battilomo": 0.15,
+        "Francesco Giannotta": 0.15,
+        "Davide Sasselli": 0.15,
+        "Shanto Paul": 0.15
+    },
+    "Racoon_Model": {
+        "Francesco Gioia": 1.0,
+        "Federico Borghesani": 1.25,
+        "Maxence Corriette": 0.2,
+        "Jurrian Witmans": 0.2,
+        "Silvia Battilomo": 0.15,
+        "Francesco Giannotta": 0.15,
+        "Andrea Salvatori": 0.5,
+        "Davide Sasselli": 0.15,
+        "Tiziano Palumbo": 0.15
+    },
+    "Rooster_Model": {
+        "Francesco Gioia": 1.0,
+        "Christian Del Grande": 1.25,
+        "Maxence Corriette": 0.2,
+        "Jurrian Witmans": 0.2,
+        "Silvia Battilomo": 0.15,
+        "Francesco Giannotta": 0.15,
+        "Nicolas Acevedo Ferrate": 0.15,
+        "Davide Sasselli": 0.15,
+        "Tiziano Palumbo": 0.15
     },
     "Rhino_Silver": {
         "Davide Sasselli": 0.2,
@@ -1086,6 +1515,33 @@
         "Jade Berto": 0.15,
         "Marta Giacobbe": 0.2
     },
+    "Stag_Male_Model": {
+        "Francesco Gioia": 1.0,
+        "Felix Gourlaouen": 2.5,
+        "Maxence Corriette": 0.2,
+        "Jurrian Witmans": 0.2,
+        "Silvia Battilomo": 0.15,
+        "Francesco Giannotta": 0.15,
+        "Nicolas Acevedo Ferrate": 0.15,
+        "Umberto D'Andrea": 0.15
+    },
+    "Stag_Female_Model": {
+        "Francesco Gioia": 1.0,
+        "Felix Gourlaouen": 2.5,
+        "Maxence Corriette": 0.2,
+        "Jurrian Witmans": 0.2,
+        "Silvia Battilomo": 0.15,
+        "Francesco Giannotta": 0.15,
+        "Nicolas Acevedo Ferrate": 0.15,
+        "Umberto D'Andrea": 0.15
+    },
+    "Swan_Model": {
+        "Francesco Gioia": 1.0,
+        "Maxence Corriette": 0.2,
+        "Jurrian Witmans": 2.7,
+        "Bianca Santarelli": 0.25,
+        "Tiziano Palumbo": 0.25
+    },
     "Tiger_Silver": {
         "Davide Sasselli": 0.1,
         "Burjis Shroff": 2.5,
@@ -1178,6 +1634,86 @@
         "Jade Berto": 0.15,
         "Marta Giacobbe": 0.1
     },
+    "Trex_Model": {
+        "Francesco Gioia": 1.0,
+        "Cesare Spinelli": 2.5,
+        "Maxence Corriette": 0.2,
+        "Jurrian Witmans": 0.2,
+        "Silvia Battilomo": 0.15,
+        "Francesco Giannotta": 0.15,
+        "Nicolas Acevedo Ferrate": 0.15,
+        "Davide Sasselli": 0.25,
+        "Andrea Salvatori": 0.25,
+        "Tiziano Palumbo": 0.25
+    },
+    "Tarantula_Model": {
+        "Francesco Gioia": 1.0,
+        "Valentina Budeanu": 2.5,
+        "Maxence Corriette": 0.2,
+        "Jurrian Witmans": 0.2,
+        "Silvia Battilomo": 0.15,
+        "Francesco Giannotta": 0.15,
+        "Nicolas Acevedo Ferrate": 0.15,
+        "Davide Sasselli": 0.25,
+        "Andrea Salvatori": 0.25,
+        "Tiziano Palumbo": 0.25,
+        "Umberto D'Andrea": 0.25,
+        "lorenzo Ruggiero": 0.2
+    },
+    "Tuna_Model": {
+        "Francesco Gioia": 1.0,
+        "Giovanni Tosatto": 1.5,
+        "Francesco Giambra": 1,
+        "Maxence Corriette": 0.2,
+        "Jurrian Witmans": 0.2,
+        "Silvia Battilomo": 0.15,
+        "Francesco Giannotta": 0.15,
+        "Nicolas Acevedo Ferrate": 0.15,
+        "Davide Sasselli": 0.25,
+        "Shanto Paul": 0.25
+    },
+    "Turtle_Model": {
+        "Francesco Gioia": 1.0,
+        "Simone Bevacqua": 2.5,
+        "Maxence Corriette": 0.2,
+        "Jurrian Witmans": 0.2,
+        "Shanto Paul": 0.6
+    },
+    "Walrus_Model": {
+        "Francesco Gioia": 1.0,
+        "Francesco Adamo": 2.5,
+        "Maxence Corriette": 0.2,
+        "Jurrian Witmans": 0.2,
+        "Silvia Battilomo": 0.15,
+        "Francesco Giannotta": 0.15,
+        "Nicolas Acevedo Ferrate": 0.15,
+        "Tiziano Palumbo": 0.2,
+        "Andrea Salvatori": 0.2,
+        "Davide Sasselli": 0.2
+    },
+    "Weimaraner_Model": {
+        "Francesco Gioia": 1.0,
+        "Arianna Morena": 1.5,
+        "Alessia Giudici": 1.0,
+        "Maxence Corriette": 0.2,
+        "Jurrian Witmans": 0.2,
+        "Silvia Battilomo": 0.15,
+        "Francesco Giannotta": 0.15,
+        "Nicolas Acevedo Ferrate": 0.15,
+        "Andrea Salvatori": 0.2,
+        "Davide Sasselli": 0.2,
+        "Umberto D'Andrea": 0.3
+    },
+    "Whale_Model": {
+        "Francesco Gioia": 1.0,
+        "Alexander Bueno Amed": 1.5,
+        "Maxence Corriette": 0.2,
+        "Jurrian Witmans": 0.2,
+        "Silvia Battilomo": 0.15,
+        "Francesco Giannotta": 0.15,
+        "Nicolas Acevedo Ferrate": 0.15,
+        "Shanto Paul": 0.3
+    },
     "Wolf_Silver": {
         "Elena Fontana": 5,
         "Sebastiano Dalla Mora": 2,
@@ -1241,5 +1777,15 @@
         "Andrea Galasso": 0.2,
         "Te Ling Hsu": 0.5,
         "Paul Vallette": 0.1
+    },
+    "Zebra_Model": {
+        "Francesco Gioia": 1.0,
+        "Amanda Primomo": 2.5,
+        "Maxence Corriette": 0.2,
+        "Jurrian Witmans": 0.2,
+        "Silvia Battilomo": 0.15,
+        "Francesco Giannotta": 0.15,
+        "Nicolas Acevedo Ferrate": 0.15,
+        "Shanto Paul": 0.4
     }
 }
