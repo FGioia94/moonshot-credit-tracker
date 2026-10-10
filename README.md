@@ -1,5 +1,5 @@
 # moonshot-credit-tracker
-tool to track credits on moonshot shop
+tool to track credits on moonshot shop.
 
 ## Deploy on GitHub Pages
 
