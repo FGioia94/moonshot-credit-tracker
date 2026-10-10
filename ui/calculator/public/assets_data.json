@@ -1138,6 +1138,12 @@
         "Jurrian Witmans": 0.2,
         "Bianca Santarelli": 0.25
     },
+    "Parrot_Model": {
+        "Francesco Gioia": 1.2,
+        "Simone Bevacqua": 2.5,
+        "Maxence Corriette": 0.2,
+        "Jurrian Witmans": 0.2
+    },
     "Pig_Silver": {
         "Davide Sasselli": 0.6,
         "Andrea Salvatori": 0.15,
@@ -1709,9 +1715,6 @@
         "Alexander Bueno Amed": 1.5,
         "Maxence Corriette": 0.2,
         "Jurrian Witmans": 0.2,
-        "Silvia Battilomo": 0.15,
-        "Francesco Giannotta": 0.15,
-        "Nicolas Acevedo Ferrate": 0.15,
         "Shanto Paul": 0.3
     },
     "Wolf_Silver": {
@@ -1762,7 +1765,7 @@
         "Sebastiano Dalla Mora": 2,
         "Hugo Legay": 0.25,
         "Maxence Corriette": 0.4,
-        "Francesco Gioia": 1,
+        "Francesco Gioia": 1.2,
         "Andrea Bellini": 0.25,
         "Silvia Battilomo": 0.3,
         "Francesco Giannotta": 0.3,
@@ -1771,6 +1774,7 @@
         "Emanuele Meloni": 1.02,
         "Leonardo Franci": 2.48,
         "Rohan Jaishwar": 1,
+        "Jurrian Witmans": 0.2,
         "Francesco Lupo": 0.4,
         "Maurizio Negro": 3.15,
         "Giacomo Venturi": 1.15,
