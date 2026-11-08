@@ -28,4 +28,4 @@ After the workflow finishes, your app URL will be:
 
 `https://<your-github-username>.github.io/moonshot-credit-tracker/`
 
-You can also see the exact URL in the workflow run output.
+You can also see the exact URL in the workflow run output
