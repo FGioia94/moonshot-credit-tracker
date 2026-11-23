@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState } from 'react'
 import { jsPDF } from 'jspdf'
 import autoTable from 'jspdf-autotable'
+import { calculateOneOfEachRevenue } from './calculations'
 import './App.css'
 
 function App() {
@@ -15,6 +16,8 @@ function App() {
   const [revenueRows, setRevenueRows] = useState([])
   const [artistTotals, setArtistTotals] = useState([])
   const [artistCredits, setArtistCredits] = useState([])
+  const [libraryRevenue, setLibraryRevenue] = useState('')
+  const [oneOfEachResult, setOneOfEachResult] = useState(null)
   const [lookupType, setLookupType] = useState('artist')
   const [lookupTarget, setLookupTarget] = useState('')
   const [lookupSortBy, setLookupSortBy] = useState('name')
@@ -223,6 +226,49 @@ function App() {
     setArtistCredits(creditRows)
   }
 
+  const calculateLibraryRevenue = () => {
+    const revenue = Number(libraryRevenue)
+    if (!Number.isFinite(revenue) || revenue <= 0) {
+      return
+    }
+
+    setOneOfEachResult({
+      ...calculateOneOfEachRevenue(assetData, revenue),
+      revenue,
+    })
+  }
+
+  const downloadOneOfEachReport = () => {
+    if (!oneOfEachResult) {
+      return
+    }
+
+    const doc = new jsPDF({ unit: 'pt', format: 'a4' })
+
+    doc.setFontSize(18)
+    doc.text('Moonshot One of Each Revenue Report', 40, 40)
+    doc.setFontSize(10)
+    doc.text(`Generated: ${new Date().toLocaleString()}`, 40, 58)
+    doc.text(`Assets in library: ${oneOfEachResult.assetCount}`, 40, 74)
+    doc.text(`Total library credits: ${oneOfEachResult.totalCredits.toFixed(2)}`, 40, 90)
+    doc.text(`Revenue distributed: ${oneOfEachResult.revenue.toFixed(2)}`, 40, 106)
+
+    autoTable(doc, {
+      startY: 126,
+      head: [['Artist', 'Total credit', 'Credit %', 'Revenue']],
+      body: oneOfEachResult.rows.map((row) => [
+        row.artist,
+        row.totalCredit.toFixed(2),
+        `${(row.percentage * 100).toFixed(2)}%`,
+        row.revenue.toFixed(2),
+      ]),
+      styles: { fontSize: 9 },
+      headStyles: { fillColor: [58, 108, 240] },
+    })
+
+    doc.save('moonshot-one-of-each-report.pdf')
+  }
+
   const downloadPdfReport = () => {
     if (purchases.length === 0) {
       return
@@ -428,6 +474,74 @@ function App() {
                             ? `${((row.credit / selectedAssetTotalCredit) * 100).toFixed(2)}%`
                             : '0.00%'}
                         </td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </>
+            )}
+          </section>
+
+          <section className="card">
+            <h2>One of each asset revenue</h2>
+            <p className="description">
+              Distribute a revenue pool using one copy of every asset. Each artist receives a
+              share based on their total credits across the full library.
+            </p>
+
+            <div className="row">
+              <label>
+                Net revenue pool to distribute
+                <input
+                  type="number"
+                  min="0"
+                  step="0.01"
+                  value={libraryRevenue}
+                  onChange={(event) => setLibraryRevenue(event.target.value)}
+                  placeholder="e.g. 100000"
+                />
+              </label>
+            </div>
+
+            <div className="actions">
+              <button
+                type="button"
+                onClick={calculateLibraryRevenue}
+                disabled={Number(libraryRevenue) <= 0 || !Number.isFinite(Number(libraryRevenue))}
+              >
+                Calculate one-of-each revenue
+              </button>
+              <button
+                type="button"
+                onClick={downloadOneOfEachReport}
+                disabled={!oneOfEachResult}
+              >
+                Download one-of-each PDF
+              </button>
+            </div>
+
+            {oneOfEachResult && (
+              <>
+                <p className="total">
+                  {oneOfEachResult.assetCount} assets, {oneOfEachResult.totalCredits.toFixed(2)}{' '}
+                  total credits, {oneOfEachResult.revenue.toFixed(2)} revenue distributed
+                </p>
+                <table>
+                  <thead>
+                    <tr>
+                      <th>Artist</th>
+                      <th>Total credits across library</th>
+                      <th>Credit %</th>
+                      <th>Revenue</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {oneOfEachResult.rows.map((row) => (
+                      <tr key={row.artist}>
+                        <td>{row.artist}</td>
+                        <td>{row.totalCredit.toFixed(2)}</td>
+                        <td>{(row.percentage * 100).toFixed(2)}%</td>
+                        <td>{row.revenue.toFixed(2)}</td>
                       </tr>
                     ))}
                   </tbody>
